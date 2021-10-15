@@ -1,9 +1,9 @@
 import Miso from "../assets/images/food/Miso.svg";
 import Meat from "../assets/images/food/Brochette viande.svg";
 import Maki from "../assets/images/food/Maki.svg";
-import Sushi from "../assets/images/food/Sushi.svg";
-import California from "../assets/images/food/California.svg";
-import BeefCheese from "../assets/images/food/Brochette boeuf fro.svg";
+import Sushi from "../assets/images/sushi.jpeg";
+import California from "../assets/images/california.jpg";
+import BeefCheese from "../assets/images/beef-cheese.png";
 
 export interface FoodItem {
   name: string;
