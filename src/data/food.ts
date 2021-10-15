@@ -4,6 +4,7 @@ import Maki from "../assets/images/food/Maki.svg";
 import Sushi from "../assets/images/sushi.jpeg";
 import California from "../assets/images/california.jpg";
 import BeefCheese from "../assets/images/beef-cheese.png";
+import Raclette from "../assets/images/raclette.jpg";
 
 export interface FoodItem {
   name: string;
@@ -42,5 +43,10 @@ export const FOOD_ITEMS: Array<FoodItem> = [
     name: "Viande",
     kcal: 130,
     imageUrl: Meat
+  },
+  {
+    name: "Raclette",
+    kcal: 300,
+    imageUrl: Raclette
   }
 ];
